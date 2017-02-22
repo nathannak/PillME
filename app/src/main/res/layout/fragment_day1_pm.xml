@@ -1,0 +1,231 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.n.nathan.pillme.day1_pm"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_weight="3"
+                style="@style/textStyle1"
+                android:id="@+id/current_day_textview"/>
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:adjustViewBounds= "true"
+                android:id="@+id/top_add"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/add"
+                android:background="#FFFFFF"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:descendantFocusability="blocksDescendants"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/LinearLayMed1"
+            android:weightSum="4">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:id="@+id/med1_symbol"
+                android:adjustViewBounds= "true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/pill1_text_view"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:id="@+id/alarm_time_med1"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/bell"
+                android:id="@+id/alarm_med1"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:id="@+id/med2_symbol"
+                android:adjustViewBounds= "true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/pill2_text_view"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:id="@+id/alarm_time_med2"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/bell"
+                android:id="@+id/alarm_med2"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:id="@+id/med3_symbol"
+                android:adjustViewBounds= "true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/pill3_text_view"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:id="@+id/alarm_time_med3"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/bell"
+                android:id="@+id/alarm_med3"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:id="@+id/med4_symbol"
+                android:adjustViewBounds= "true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/pill4_text_view"
+                style="@style/textStyle1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:id="@+id/alarm_time_med4"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/bell"
+                android:id="@+id/alarm_med4"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#FFFFFF"
+                android:id="@+id/med5_symbol"
+                android:adjustViewBounds= "true"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:id="@+id/pill5_text_view"
+                style="@style/textStyle1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                style="@style/textStyle1"
+                android:id="@+id/alarm_time_med5"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/bell"
+                android:id="@+id/alarm_med5"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
